@@ -11,7 +11,7 @@ const Ninjas = ({ ninjas }: InferGetStaticPropsType<typeof getStaticProps>) => {
   return (
     <>
       <div>
-        <h1>All Ninjas</h1>
+        <h1 className="text-4xl">All Ninjas</h1>
         {ninjas.map((ninja: NinjaModel) => {
           return (
             <Link href={`/ninjas/${ninja.id}`} key={ninja.id}>

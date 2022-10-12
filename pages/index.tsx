@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <meta name="keywords" content="ninjas" />
       </Head>
       <div>
-        <h1 className={styles.title}>Homepage</h1>
+        <h1 className={`${styles.title} text-4xl`}>Homepage</h1>
         <p className={styles.text}>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis,
           ipsa? Eligendi corporis sit soluta, ut odit est commodi praesentium
