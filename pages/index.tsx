@@ -9,6 +9,10 @@ import Link from "next/link";
 const Home: NextPage = () => {
   return (
     <>
+      <Head>
+        <title>Ninja List | Home</title>
+        <meta name="keywords" content="ninjas" />
+      </Head>
       <div>
         <h1 className={styles.title}>Homepage</h1>
         <p className={styles.text}>
